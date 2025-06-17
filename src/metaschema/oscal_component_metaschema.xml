@@ -36,7 +36,6 @@
       <description>A globally unique identifier for this component definition instance. This UUID should be changed when this document is revised.</description>
     </define-flag>
     <model>
-      <assembly ref="metadata" min-occurs="1"/>
       <assembly ref="import-component-definition" max-occurs="unbounded">
         <group-as name="import-component-definitions" in-json="ARRAY"/>
       </assembly>

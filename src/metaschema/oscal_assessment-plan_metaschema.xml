@@ -23,7 +23,6 @@
             <description>Uniquely identifies this assessment plan. This UUID must be changed each time the content of the plan changes.</description>
         </define-flag>
         <model>
-            <assembly ref="metadata" min-occurs="1" max-occurs="1"/>
             <assembly ref="import-ssp" min-occurs="1" max-occurs="1">
                 <remarks>
                     <p>Used by the SAP to import information about the system being assessed.</p>

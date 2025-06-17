@@ -37,7 +37,6 @@
       <description>A globally unique identifier for this catalog instance. This UUID should be changed when this document is revised.</description>
     </define-flag>
     <model>
-      <assembly ref="metadata" min-occurs="1"/>
       <assembly ref="import-profile" min-occurs="1"/>
       <assembly ref="system-characteristics" min-occurs="1"/>
       <assembly ref="system-implementation" min-occurs="1"/>

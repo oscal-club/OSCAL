@@ -25,7 +25,6 @@
       <description>Uniquely identifies this assessment results file. This UUID must be changed each time the content of the results changes.</description>
     </define-flag>
     <model>
-      <assembly ref="metadata" min-occurs="1" max-occurs="1"/>
       <assembly ref="import-ap" min-occurs="1" max-occurs="1">
         <remarks>
           <p>Used by the SAR to import information about the original plan for assessing the system.</p>
